@@ -5,7 +5,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>foo</artifactId>
   <name>foo</name>
-  <version>0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
