@@ -5,6 +5,13 @@ import software.constructs.Construct;
 import com.hashicorp.cdktf.App;
 import com.hashicorp.cdktf.TerraformStack;
 
+// Datadog provider
+// https://github.com/hashicorp/cdktf-provider-datadog/blob/main/README.md
+import com.hashicorp.cdktf.providers.datadog.ApiKey;
+import com.hashicorp.cdktf.providers.datadog.ApplicationKey;
+import com.hashicorp.cdktf.providers.datadog.Dashboard;
+import com.hashicorp.cdktf.providers.datadog.DashboardList;
+
 public class Main extends TerraformStack
 {
     public Main(final Construct scope, final String id) {
